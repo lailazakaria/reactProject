@@ -1,0 +1,32 @@
+.container{
+    width: 80%;
+    margin: 5rem auto;
+   
+}
+.container {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5rem;
+}
+
+
+.leftSection h2{
+    font-size: 2rem;
+}
+
+.rightSection .bttn{
+     padding: 12px 5rem;
+    /* height: 3rem;
+    width: 8rem; */
+    border-radius: 2px;
+    border: rgb(12, 12, 12);
+    color:white;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.rightSection p{
+    font-size: 12px;
+}

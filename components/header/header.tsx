@@ -1,10 +1,11 @@
 import React from "react";
 import './header.css'
+import Image from "next/image";
+import logo from "../../src/assest/LOGO_daisy.svg"
+import icon from "../../src/assest/s.svg"
 function Logo() {
     return(
-    <div className="logo">
-        <div>HAUS GROUP</div>
-    </div>)
+     <Image src = { logo } alt = "Dojo Helpdesk logo" className = "logo" />)
 }
 
 
@@ -13,18 +14,12 @@ function Nav() {
         <ul>
             <li>Home</li>
             <li>About</li>
-            <li>Journal</li>
-            <li>Contact</li>
+            <li>LookBook</li>
+            <li>ContactUs</li>
         </ul>
     );
 }
-function Button() {
-    return (
-        <div className="btn">
-            <button>Talk to agent</button>
-        </div>
-    )
-}
+
 
 
 function Header() {
@@ -32,7 +27,10 @@ function Header() {
         <header>
             <Logo />
             <Nav />
-            <Button/>
+            <div className="icon">
+                <Image src={icon} alt="Dojo Helpdesk icon"  />
+            </div>
+            
         </header>
     );
 }

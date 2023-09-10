@@ -1,0 +1,32 @@
+h1{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+button{
+    padding: 12px 5rem;
+    /* height: 3rem;
+    width: 8rem; */
+    border-radius: 2px;
+    border: rgb(12, 12, 12);
+    color: rgb(7, 7, 7);
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.style-home{
+    /* word-spacing: 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../../src/assest/home.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
