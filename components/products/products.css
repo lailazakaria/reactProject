@@ -1,0 +1,12 @@
+.container-products{
+    width: 80%;
+    margin: 5rem auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.price{
+    margin-top: 1rem;
+    text-align: center;
+    color: #c0bdbd;
+}
