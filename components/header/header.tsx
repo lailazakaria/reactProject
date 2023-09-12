@@ -3,6 +3,7 @@ import './header.css'
 import Image from "next/image";
 import logo from "../../src/assest/LOGO_daisy.svg"
 import icon from "../../src/assest/s.svg"
+import Link from "next/link";
 function Logo() {
     return(
      <Image src = { logo } alt = "Dojo Helpdesk logo" className = "logo" />)
@@ -12,8 +13,11 @@ function Logo() {
 function Nav() {
     return (
         <ul>
-            <li>Home</li>
-            <li>About</li>
+            <Link href="/"><li>Home</li></Link>
+            <Link href="/about"><li>About</li></Link>
+
+            
+            
             <li>LookBook</li>
             <li>ContactUs</li>
         </ul>

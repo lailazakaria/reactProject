@@ -40,7 +40,7 @@ function SectionChosen(){
     return (
         <div className="container">
             <LeftSection title="Hi, there.
-We're Blush Boutique." />
+            We're Blush Boutique." />
             <RightSection paragraph="We make beautiful clothes that don’t just look great on the hanger. They look great on you, too! All of our clothes are designed for both comfort and style, so you look great and feel terrific, whatever you’re wearing."
             button="LEARN MORE"/>
         </div>
