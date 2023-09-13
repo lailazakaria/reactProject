@@ -1,0 +1,6 @@
+.container-services{
+    width: 80%;
+    margin: 6rem auto;
+    display: flex;
+    justify-content: space-between;
+}

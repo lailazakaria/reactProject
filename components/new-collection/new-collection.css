@@ -1,5 +1,12 @@
 .s{
     margin-bottom: 6rem;
     height: 50vh;
-    background-image: url("../../src/assest/Part_of_white_jacket.jpg");
+    background-image: url("../../src/assest/woman_portrait.webp");
+}
+.container-services{
+    width: 80%;
+    margin: 6rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
 }

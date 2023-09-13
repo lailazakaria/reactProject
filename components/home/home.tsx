@@ -1,6 +1,8 @@
 import Image from "next/image"
 import img from "../../src/assest/home.jpg"
 import "./home.css"
+
+
 function TitleHome() {
     return (
         <h1>NEW FALL-WINTER
